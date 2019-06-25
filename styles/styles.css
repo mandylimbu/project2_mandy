@@ -2,17 +2,17 @@
 
 body{
     background-color: rgba #78F1FF;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background1.jpg");
     background-size: cover;
-    opacity: 50%;
+    opacity: .8;
 
 }
-# logo {
+#logo {
 border-radius: 50%
 }
 
 header {
-    width: 800px;
+    width: 900px;
     border:1 px black dashed;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +22,7 @@ header {
     
 
 main{
-    width:800px;
+    width:900px;
     border: 1px black dashed;
     margin-left: auto;
     margin-right: auto;
@@ -32,9 +32,18 @@ main{
     font font-family:serif ;
     }
 
+main p {
+    margin:10px;
+    font-size: 36px;
+    color: black;
+    background-color: floralwhite;
+    font-family: arial;
+}
+
+
 
 footer{
-    width:800px;
+    width:900px;
     border: 1px black dotted;
     margin: 0 auto;
     margin-left: auto;
@@ -46,7 +55,7 @@ footer{
 h1 {
 	    font-size: 100px;
 	    font-family: cursive;
-	    color: darkgray;
+	    color: black;
 	    text-align: center;
 	}
 
@@ -61,15 +70,17 @@ list-style-type: none;
 /*this is to add border on my list*/
 
 	
-p{
-    font-size: 100px;
-    font-family: "Arial";
-    
-    }
-p, li, a {
-	    font-size: 36px;
+
+#home-p {
+    Font-family: "Rubik";
+    color:black;
+    background-color: white;
+}
+
+li, a {
+	    /*font-size: 36px;*/
 	    font-family: cursive;
-	    color:darkgoldenrod;
+	    color:darkgreen;
     
     
 	}
@@ -121,5 +132,10 @@ li {
     font-family: "Arial", sans-serif;
     color: darkblue;
 }
+/*for breakfast page*/
 
+#breakfast-list {
+color: darkgreen;
+display: list-item;
+}
 
